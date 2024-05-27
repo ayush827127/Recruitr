@@ -1,0 +1,21 @@
+.profile-container {
+    height: 100vh; /* Set height to full viewport height */
+  }
+/* Custom scrollbar */
+.profile-container::-webkit-scrollbar {
+    border-radius: 20px;
+    width: 6px;
+}
+
+.profile-container::-webkit-scrollbar-thumb {
+    background-color: #1363DF; /* Set to your primary color */
+    border-radius: 20px; /* Updated border radius */
+}
+
+.profile-container::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Light grey background color */
+}
+
+.profile-container::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
